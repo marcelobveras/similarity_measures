@@ -1,4 +1,4 @@
-import binary_similarity as sim
+import binary_similarity.Similarity_function as sim
 
 """Exemplo de utilização"""
 
@@ -26,3 +26,4 @@ dice1_score = model.evaluate('Dice_1')
 #teste = model.evaluate('outsideSimFunc')
 
 testeAll = model.evaluateAll()
+print(testeAll)
